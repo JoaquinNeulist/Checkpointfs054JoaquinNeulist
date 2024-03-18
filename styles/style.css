@@ -19,15 +19,12 @@ header{
     text-align: center;
     align-items: center;
     font-size: 45px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-bottom: 3px solid #3F51B5 ;
 }
 
-h1{
-    text-shadow: 2px 2px 2px 2px #3F51B5;
-}
-
-header img{
+header img{ 
+    margin: 5px;
     width: 150px;
     height: 150px;
 }
@@ -58,7 +55,7 @@ main{
     background-image: url(../assets/fondo.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 59vh;
+    height: 60vh;
     width: 100%;
 }
 
@@ -79,7 +76,7 @@ main{
 }
 
 .card img{
-    width: 200px;
+    width: 225px;
     height: 150px;
 }
 
@@ -91,15 +88,18 @@ main{
 }
 .cardul{
     text-align: start;
-    padding: 12px 9rem 0 3rem;
+    padding: 1rem 8rem 0 1rem;
     list-style-position: inside;
     border: 1px solid black;
     display: flex;
+    margin-top: 5px;
+    margin-bottom: 0.8rem;
     flex-direction: column;
     background-color: rgb(197, 195, 230);
 }
 .cardtable{
-    margin: 10px;
+    margin: 5px;
+    margin-bottom: 0.8rem;
     border: 1px solid black;
     display: flex;
     padding: 8px 1rem ;
@@ -120,9 +120,9 @@ footer{
     color: white;
     justify-content: space-around;
     align-items: center;
-    padding: 0.3rem;
+    padding: 0.2rem;
     width: 100%;
-    margin-top: auto;
+    margin-top: 0;
 }
 
 fieldset{
