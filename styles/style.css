@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
     margin: 0;
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
 }
 
 header{
@@ -30,7 +34,7 @@ header img{
 
 nav{
     display: flex;
-    margin: 1rem;
+    margin-top: 1rem;
     text-align: center;
     gap: 0 4rem;
     justify-content: center;
@@ -53,7 +57,9 @@ nav a{
 main{
     background-image: url(../assets/fondo.webp);
     background-size: cover;
-    
+    background-repeat: no-repeat;
+    height: 59vh;
+    width: 100%;
 }
 
 .main-section{
@@ -69,7 +75,7 @@ main{
     justify-content: center;
     width: 100%;
     gap: 2rem;
-    border: 1px dashed yellow;
+    text-align: center;
 }
 
 .card img{
@@ -85,7 +91,7 @@ main{
 }
 .cardul{
     text-align: start;
-    padding: 12px 9rem 2rem 3rem;
+    padding: 12px 9rem 0 3rem;
     list-style-position: inside;
     border: 1px solid black;
     display: flex;
@@ -114,8 +120,9 @@ footer{
     color: white;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 0.3rem;
     width: 100%;
+    margin-top: auto;
 }
 
 fieldset{
