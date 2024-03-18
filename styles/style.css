@@ -17,7 +17,6 @@ header{
 
 h1{
     text-shadow: 2px 2px 2px 2px #3F51B5;
-    text-decoration: dashed;
 }
 
 header img{
@@ -31,14 +30,15 @@ nav{
     text-align: center;
     gap: 4rem;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
     border-bottom: 3px solid #3F51B5;
 }
 
 nav a{
     padding: 0.5rem;
     text-decoration: none;
-    border: 1px solid #3F51B5;
+    border-bottom: 1px solid #3F51B5;
     border-radius: 6px;
     box-shadow: 1px 1px 1px 1px #3f51b5cf;
     color: black;
@@ -48,19 +48,48 @@ nav a{
 
 main{
     background-image: url(../assets/fondo.webp);
+    background-size: cover;
+    
 }
 
 .main-section{
+    text-align: center;
     display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
-.container{}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 2rem;
 
-.card{}
-
-colores{
-    white
-black
-#3F51B5
-rgb(197, 195, 230)
 }
+
+.card img{
+    width: 200px;
+    height: 150px;
+}
+
+.card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 195, 230);
+}
+
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+fieldset{
+    padding: 18px;
+}
+
